@@ -6,7 +6,7 @@ import fs from 'fs'
 let handler = async (m, { conn, text }) => {
 if (!text) throw "Hey, can I help you??"
 const configuration = new Configuration({
-    apiKey: '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'
+    apiKey: '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'
 });
 const openai = new OpenAIApi(configuration);
         const response = await openai.createCompletion({
